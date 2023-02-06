@@ -61,8 +61,14 @@
 
 [download](https://repo.anaconda.com/miniconda/)
 
+[official-document](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/index.html)
+
 [conda install requirements](https://linuxhint.com/conda-install-requirements-txt/)
 
 [conda manage packages](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
 
 [uninstall conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html#:~:text=The%20installer%20prompts%20%E2%80%9CDo%20you,%E2%80%9D%20We%20recommend%20%E2%80%9Cyes%E2%80%9D.&text=If%20you%20enter%20%E2%80%9Cno%E2%80%9D%2C,your%20shell%20scripts%20at%20all.)
+
+[conda wheel file](https://docs.conda.io/projects/conda-build/en/3.23.x/user-guide/wheel-files.html)
+
+[wheel package](https://realpython.com/python-wheels/#:~:text=whl%20file%20is%20essentially%20a,a%20type%20of%20built%20distribution.)
