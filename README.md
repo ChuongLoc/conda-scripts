@@ -38,20 +38,23 @@
 
 **10/ install new package in virtual enviroment**
 
-`bin/conda install -n <package> <yourenv>` or `pip install <package>`
+`bin/conda install -n <yourenv> <package>` or `pip install <package>`
 
-**11/ remove virtual enviroment**
+**11/ run conda**
+`sudo <path to miniconda3>/envs/<your env>/bin/python <path to your script>/script.py`
 
-`bin/conda remove -n <yourenv> --all` or 
+**12/ remove virtual enviroment**
 
-**12/ uninstall conda**
+`bin/conda remove -n <yourenv> --all`
+
+**13/ uninstall conda**
 `sudo rm -rf <your_miniconda>`
 
 **Note**
 
 - related to `.profile`,`.bash_profile`,`bashrc`
 
-- remove hidden files `.condarc`, `.conda`,`continum`
+- remove hidden files `.condarc`, `.conda`,`continuum`
 
 [download](https://repo.anaconda.com/miniconda/)
 
@@ -59,4 +62,4 @@
 
 [conda manage packages](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html)
 
-[conda update new](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html#:~:text=The%20installer%20prompts%20%E2%80%9CDo%20you,%E2%80%9D%20We%20recommend%20%E2%80%9Cyes%E2%80%9D.&text=If%20you%20enter%20%E2%80%9Cno%E2%80%9D%2C,your%20shell%20scripts%20at%20all.)
+[uninstall conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html#:~:text=The%20installer%20prompts%20%E2%80%9CDo%20you,%E2%80%9D%20We%20recommend%20%E2%80%9Cyes%E2%80%9D.&text=If%20you%20enter%20%E2%80%9Cno%E2%80%9D%2C,your%20shell%20scripts%20at%20all.)
