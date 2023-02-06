@@ -57,7 +57,7 @@
 
 - related to `.profile`,`.bash_profile`,`bashrc`
 
-- remove hidden files `.condarc`, `.conda`,`continuum`
+- remove hidden files `.condarc`, `.conda`,`continuum` in `home` directory, press `Ctrl+H` to display
 
 [download](https://repo.anaconda.com/miniconda/)
 
