@@ -38,7 +38,7 @@
 
 `source deactivate <yourenv>` or `bin/conda deactivate`
 
-**10 list installed packages in virtual enviroment**
+**10/ list installed packages in virtual enviroment**
 
 `<your miniconda3>/envs/<your env>/bin/pip list` or `<your miniconda3>/envs/<your env>/bin/pip3 list` 
 
