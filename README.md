@@ -44,7 +44,7 @@
 
 example: `myconda/envs/py38/bin/pip list`
 
-**10/ install new package in virtual enviroment**
+**11/ install new package in virtual enviroment**
 
 `bin/conda install -n <yourenv> <package>` or `pip install <package>`
 
@@ -52,15 +52,19 @@ install new packages follow requirements.txt
 
 `<your miniconda3>/envs/<your env>/bin/pip install -r requirements.txt` or `<your miniconda3>/envs/<your env>/bin/pip3 install -r requirements.txt`
 
-**11/ run conda**
+**12/ export installed packages to requirements.txt**
+
+`<your miniconda3>/envs/<your env>/bin/pip freeze > requirements.txt` or `<your miniconda3>/envs/<your env>/bin/pip3 freeze > requirements.txt`
+
+**13/ run conda**
 
 `sudo <path to miniconda3>/envs/<your env>/bin/python <path to your script>/script.py`
 
-**12/ remove virtual enviroment**
+**14/ remove virtual enviroment**
 
 `bin/conda remove -n <yourenv> --all`
 
-**13/ uninstall conda**
+**15/ uninstall conda**
 `sudo rm -rf <your miniconda>`
 
 **Note**
