@@ -28,6 +28,8 @@
 
 `bin/conda create py38 python=3.8`
 
+`bin/conda create --name <env> --file requirements.txt`
+
 **8/ activate virtual environment**
 
 `source activate <yourenv>` or `bin/conda activate <yourenv>`
