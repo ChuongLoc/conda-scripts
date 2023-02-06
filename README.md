@@ -48,6 +48,10 @@ example: `myconda/envs/py38/bin/pip list`
 
 `bin/conda install -n <yourenv> <package>` or `pip install <package>`
 
+install new packages follow requirements.txt 
+
+`<your miniconda3>/envs/<your env>/bin/pip install -r requirements.txt` or `<your miniconda3>/envs/<your env>/bin/pip3 install -r requirements.txt`
+
 **11/ run conda**
 
 `sudo <path to miniconda3>/envs/<your env>/bin/python <path to your script>/script.py`
