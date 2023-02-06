@@ -38,6 +38,12 @@
 
 `source deactivate <yourenv>` or `bin/conda deactivate`
 
+**10 list installed packages in virtual enviroment**
+
+`<your miniconda3>/envs/<your env>/bin/pip list` or `<your miniconda3>/envs/<your env>/bin/pip3 list` 
+
+example: `myconda/envs/py38/bin/pip list`
+
 **10/ install new package in virtual enviroment**
 
 `bin/conda install -n <yourenv> <package>` or `pip install <package>`
@@ -51,7 +57,7 @@
 `bin/conda remove -n <yourenv> --all`
 
 **13/ uninstall conda**
-`sudo rm -rf <your_miniconda>`
+`sudo rm -rf <your miniconda>`
 
 **Note**
 
