@@ -41,6 +41,7 @@
 `bin/conda install -n <yourenv> <package>` or `pip install <package>`
 
 **11/ run conda**
+
 `sudo <path to miniconda3>/envs/<your env>/bin/python <path to your script>/script.py`
 
 **12/ remove virtual enviroment**
