@@ -87,4 +87,6 @@ install new packages follow requirements.txt
 
 [python wheels](https://pythonwheels.com/)
 
+[pypi](https://pypi.org/) Find, install and publish Python packages with the Python Package Index
+
 [wheel package](https://realpython.com/python-wheels/#:~:text=whl%20file%20is%20essentially%20a,a%20type%20of%20built%20distribution.)
