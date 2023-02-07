@@ -58,19 +58,29 @@ example: `myconda/envs/py38/bin/pip list`
 
 `<your miniconda3>/envs/<your env>/bin/pip install <your wheel file>.whl` or `<your miniconda3>/envs/<your env>/bin/pip3 install <your wheel file>.whl`
 
-**12/ export installed packages to requirements.txt**
+**12/ download file wheel of packages**
+
+- download wheel files of package
+
+`<your miniconda3>/envs/<your env>/bin/pip download <your package>`
+
+- download wheel files follow requirements.txt
+
+`<your miniconda3>/envs/<your env>/bin/pip download -r requirements.txt`
+
+**13/ export installed packages to requirements.txt**
 
 `<your miniconda3>/envs/<your env>/bin/pip freeze > requirements.txt` or `<your miniconda3>/envs/<your env>/bin/pip3 freeze > requirements.txt`
 
-**13/ run conda**
+**14/ run conda**
 
 `sudo <path to miniconda3>/envs/<your env>/bin/python <path to your script>/script.py`
 
-**14/ remove virtual enviroment**
+**15/ remove virtual enviroment**
 
 `bin/conda remove -n <yourenv> --all`
 
-**15/ uninstall conda**
+**16/ uninstall conda**
 `sudo rm -rf <your miniconda>`
 
 **Note**
