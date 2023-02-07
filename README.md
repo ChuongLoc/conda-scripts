@@ -46,11 +46,17 @@ example: `myconda/envs/py38/bin/pip list`
 
 **11/ install new package in virtual enviroment**
 
+- install by package's name
+
 `bin/conda install -n <yourenv> <package>` or `pip install <package>`
 
-install new packages follow requirements.txt 
+- install by requirements.txt 
 
 `<your miniconda3>/envs/<your env>/bin/pip install -r requirements.txt` or `<your miniconda3>/envs/<your env>/bin/pip3 install -r requirements.txt`
+
+- install by wheel file
+
+`<your miniconda3>/envs/<your env>/bin/pip install <your wheel file>.whl` or `<your miniconda3>/envs/<your env>/bin/pip3 install <your wheel file>.whl`
 
 **12/ export installed packages to requirements.txt**
 
