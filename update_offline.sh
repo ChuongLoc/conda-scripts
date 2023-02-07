@@ -1,13 +1,13 @@
 #!/usr/bin/bash
 
 # variables
-PATH="/home/greystone/locchuong" #/home/greystone/GG_Non_Phone/ML_MODULE
-MYENV="myenv" # env_main_app
-MYCONDA="myconda" # miniconda3_py38
-WHEELS="/home/greystone/locchuong/wheels"
-CONDA="${PATH}/${MYCONDA}/bin/conda" # /home/greystone/GG_Non_Phone/ML_MODULE/miniconda3_py38/bin/conda
-ENV="${PATH}/${MYCONDA}/envs/${MYENV}" # /home/greystone/GG_Non_Phone/ML_MODULE/miniconda3_py38/envs/miniconda3_py38
-PIP="${PATH}/${MYCONDA}/envs/${MYENV}/bin/pip" # /home/greystone/GG_Non_Phone/ML_MODULE/miniconda3_py38/envs/miniconda3_py38/bin/pip
+PATH="/home/greystone/locchuong"
+MYENV="myenv"
+MYCONDA="myconda"
+PACKAGES="/home/greystone/locchuong/packages"
+CONDA="${PATH}/${MYCONDA}/bin/conda"
+ENV="${PATH}/${MYCONDA}/envs/${MYENV}"
+PIP="${PATH}/${MYCONDA}/envs/${MYENV}/bin/pip"
 
 # check miniconda3 installation
 if [ -f "$CONDA" ]; then
@@ -28,7 +28,14 @@ else
 fi
 
 # loop over wheel files and install
-for item in $WHEELS/*.whl
+for item in $PACKAGES/*.whl
+do
+    echo "Installing: $item"
+    $PIP install $item
+done
+
+# loop over tar.gz and install
+for item in $PACKAGES/*.tar.gz
 do
     echo "Installing: $item"
     $PIP install $item
