@@ -64,6 +64,10 @@ example: `myconda/envs/py38/bin/pip list`
 
 `<your miniconda3>/envs/<your env>/bin/pip download <your package>`
 
+- download wheel files of package save to specific directory
+
+`<your miniconda3>/envs/<your env>/bin/pip download <your package> -d <your directory>`
+
 - download wheel files follow requirements.txt
 
 `<your miniconda3>/envs/<your env>/bin/pip download -r requirements.txt`
